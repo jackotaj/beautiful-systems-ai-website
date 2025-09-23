@@ -11,7 +11,7 @@ import BeautifulCRM from './pages/BeautifulCRM.jsx'
 import BookDemo from './pages/BookDemo.jsx'
 import AIEmployee from './pages/AIEmployee.jsx'
 import Contact from './pages/Contact.jsx'
-import './App.css'
+import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

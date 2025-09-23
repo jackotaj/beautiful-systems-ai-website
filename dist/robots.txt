@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Allow all pages to be crawled
+Allow: /ai-employee
+Allow: /book-show-ai
+Allow: /never-missed
+Allow: /review-rocket
+Allow: /beautiful-reactivation
+Allow: /beautiful-crm
+Allow: /book-demo
+Allow: /contact
+
+# Block unnecessary files
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.js.map$
+
+# Sitemap location
+Sitemap: https://beautifulsystems.ai/sitemap.xml
