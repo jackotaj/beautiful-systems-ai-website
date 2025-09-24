@@ -23,9 +23,9 @@ function App() {
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#platform" className="text-gray-600 hover:text-primary transition-colors">Solutions</a>
-              <a href="#components" className="text-gray-600 hover:text-primary transition-colors">Components</a>
-              <a href="#pricing" className="text-gray-600 hover:text-primary transition-colors">Pricing</a>
+              <a href="/beautiful-crm" className="text-gray-600 hover:text-primary transition-colors">Solutions</a>
+              <a href="/ai-employee" className="text-gray-600 hover:text-primary transition-colors">AI Employee</a>
+              <a href="/contact" className="text-gray-600 hover:text-primary transition-colors">Contact</a>
               <Button className="bg-primary hover:bg-primary/90" asChild>
                 <a href="/book-demo">Book a Strategy Call</a>
               </Button>
