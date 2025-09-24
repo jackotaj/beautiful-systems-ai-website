@@ -12,7 +12,7 @@ export default function AIEmployee() {
         {/* Hero Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="outline" className="mb-8 text-lg px-6 py-2 text-primary border-primary font-semibold">
+            <Badge variant="outline" className="mb-8 text-lg px-6 py-2 text-beautiful-pink border-beautiful-pink font-semibold">
               Always on. Always polite. Always moving the next step.
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -25,13 +25,13 @@ export default function AIEmployee() {
               It never gets tired. It never says "circle back."
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
+              <Button size="lg" className="bg-beautiful-pink hover:bg-beautiful-pink/90 text-lg px-8 py-3" asChild>
                 <a href="/book-demo">
                   Activate My AI Employee
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-white" asChild>
+              <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-beautiful-pink text-beautiful-pink hover:bg-beautiful-pink hover:text-white" asChild>
                 <a href="/book-demo">Book My Demo</a>
               </Button>
             </div>
@@ -45,7 +45,7 @@ export default function AIEmployee() {
             <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
               Turn inquiries into appointments and tasks into outcomes. Faster response. Fewer no-shows. Higher show rates. Clear ROI on one screen.
             </p>
-            <div className="bg-primary/10 border border-primary/20 rounded-lg p-6 max-w-2xl mx-auto">
+            <div className="bg-beautiful-pink/10 border border-beautiful-pink/20 rounded-lg p-6 max-w-2xl mx-auto">
               <p className="text-lg font-semibold text-gray-900">
                 If your pipeline depends on memory, you are gambling. The house always wins.
               </p>
@@ -64,7 +64,7 @@ export default function AIEmployee() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <Card className="p-6 hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <MessageSquare className="h-12 w-12 text-primary mb-4" />
+                  <MessageSquare className="h-12 w-12 text-beautiful-pink mb-4" />
                   <CardTitle className="text-xl">Conversation AI</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -76,7 +76,7 @@ export default function AIEmployee() {
 
               <Card className="p-6 hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <Phone className="h-12 w-12 text-primary mb-4" />
+                  <Phone className="h-12 w-12 text-beautiful-pink mb-4" />
                   <CardTitle className="text-xl">Voice AI</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -88,7 +88,7 @@ export default function AIEmployee() {
 
               <Card className="p-6 hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <Star className="h-12 w-12 text-primary mb-4" />
+                  <Star className="h-12 w-12 text-beautiful-pink mb-4" />
                   <CardTitle className="text-xl">Reviews AI</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -100,7 +100,7 @@ export default function AIEmployee() {
 
               <Card className="p-6 hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <Zap className="h-12 w-12 text-primary mb-4" />
+                  <Zap className="h-12 w-12 text-beautiful-pink mb-4" />
                   <CardTitle className="text-xl">Workflow AI</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -112,7 +112,7 @@ export default function AIEmployee() {
             </div>
 
             <div className="text-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Button size="lg" className="bg-beautiful-pink hover:bg-beautiful-pink/90" asChild>
                 <a href="/book-demo">
                   See It in Action
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -131,38 +131,38 @@ export default function AIEmployee() {
             
             <div className="grid md:grid-cols-5 gap-6 mb-12">
               <div className="text-center">
-                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                <div className="bg-beautiful-pink text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Lead appears</h3>
                 <p className="text-sm text-gray-600">The AI greets, answers, and gets the booking.</p>
               </div>
               
               <div className="text-center">
-                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                <div className="bg-beautiful-pink text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Lead hesitates</h3>
                 <p className="text-sm text-gray-600">Follow up across SMS and email keeps nudging until a time is set.</p>
               </div>
               
               <div className="text-center">
-                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                <div className="bg-beautiful-pink text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Before appointment</h3>
                 <p className="text-sm text-gray-600">Confirmations and reminders cut no-shows. If they cancel, the AI reschedules.</p>
               </div>
               
               <div className="text-center">
-                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                <div className="bg-beautiful-pink text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
                 <h3 className="font-semibold text-gray-900 mb-2">After the job</h3>
                 <p className="text-sm text-gray-600">Review requests fire. Good feedback becomes public proof. Issues route privately.</p>
               </div>
               
               <div className="text-center">
-                <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">5</div>
+                <div className="bg-beautiful-pink text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">5</div>
                 <h3 className="font-semibold text-gray-900 mb-2">Back in CRM</h3>
                 <p className="text-sm text-gray-600">Every touch logs to the contact. Pipelines move. Tasks get assigned. Dashboards show the money.</p>
               </div>
             </div>
 
             <div className="text-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Button size="lg" className="bg-beautiful-pink hover:bg-beautiful-pink/90" asChild>
                 <a href="/book-demo">
                   Activate My AI Employee
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -189,7 +189,7 @@ export default function AIEmployee() {
                 'What the AI can do alone and when to hand off'
               ].map((control, index) => (
                 <div key={index} className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-                  <Settings className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <Settings className="h-5 w-5 text-beautiful-pink flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{control}</span>
                 </div>
               ))}
@@ -215,14 +215,14 @@ export default function AIEmployee() {
                 { icon: BarChart3, text: 'Attribution dashboards that tie channels to revenue' }
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <feature.icon className="h-5 w-5 text-primary flex-shrink-0" />
+                  <feature.icon className="h-5 w-5 text-beautiful-pink flex-shrink-0" />
                   <span className="text-gray-700">{feature.text}</span>
                 </div>
               ))}
             </div>
 
             <div className="text-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Button size="lg" className="bg-beautiful-pink hover:bg-beautiful-pink/90" asChild>
                 <a href="/book-demo">
                   Book My Demo
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -241,31 +241,31 @@ export default function AIEmployee() {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <Card className="p-6 text-center">
-                <Zap className="h-12 w-12 text-primary mx-auto mb-4" />
+                <Zap className="h-12 w-12 text-beautiful-pink mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Speed wins deals</h3>
                 <p className="text-gray-600 text-sm">Seconds beat minutes.</p>
               </Card>
               
               <Card className="p-6 text-center">
-                <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CheckCircle className="h-12 w-12 text-beautiful-pink mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Consistency compounds</h3>
                 <p className="text-gray-600 text-sm">Follow up never "slips."</p>
               </Card>
               
               <Card className="p-6 text-center">
-                <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
+                <Shield className="h-12 w-12 text-beautiful-pink mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Recovery saves revenue</h3>
                 <p className="text-gray-600 text-sm">Reschedules and deposits keep the calendar profitable.</p>
               </Card>
               
               <Card className="p-6 text-center">
-                <Star className="h-12 w-12 text-primary mx-auto mb-4" />
+                <Star className="h-12 w-12 text-beautiful-pink mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Proof converts</h3>
                 <p className="text-gray-600 text-sm">Reviews boost rank and trust without more ad spend.</p>
               </Card>
               
               <Card className="p-6 text-center">
-                <BarChart3 className="h-12 w-12 text-primary mx-auto mb-4" />
+                <BarChart3 className="h-12 w-12 text-beautiful-pink mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Attribution ends arguments</h3>
                 <p className="text-gray-600 text-sm">You see what works, then fund it.</p>
               </Card>
@@ -323,13 +323,13 @@ export default function AIEmployee() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3" asChild>
+              <Button size="lg" className="bg-beautiful-pink hover:bg-beautiful-pink/90 text-lg px-8 py-3" asChild>
                 <a href="/book-demo">
                   Activate My AI Employee
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-white" asChild>
+              <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-beautiful-pink text-beautiful-pink hover:bg-beautiful-pink hover:text-white" asChild>
                 <a href="/book-demo">Book My Demo</a>
               </Button>
             </div>
