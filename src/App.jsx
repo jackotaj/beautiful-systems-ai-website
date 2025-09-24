@@ -13,29 +13,20 @@ function App() {
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center">
-              <Link to="/">
-                <img 
-                  src="/beautifullogoblack.png" 
-                  alt="Beautiful Systems" 
-                  className="h-12 w-auto cursor-pointer hover:opacity-80 transition-opacity" 
-                />
-              </Link>
-            </div>
             <div className="hidden md:flex items-center space-x-4">
-              <a href="#solutions" className="bg-green-100 text-green-700 px-3 py-1 rounded-md text-sm font-medium hover:bg-green-200 transition-colors">
-                Solutions
-              </a>
-              <a href="#components" className="bg-blue-100 text-blue-700 px-3 py-1 rounded-md text-sm font-medium hover:bg-blue-200 transition-colors">
-                Components
-              </a>
-              <a href="#pricing" className="bg-orange-100 text-orange-700 px-3 py-1 rounded-md text-sm font-medium hover:bg-orange-200 transition-colors">
-                Pricing
-              </a>
-              <Button className="bg-beautiful-pink hover:bg-beautiful-pink/90 text-white" asChild>
-                <a href="/book-demo">Book a Strategy Call</a>
-              </Button>
-            </div>
+  <a href="#solutions" className="text-gray-700 px-3 py-1 rounded-md text-sm font-medium hover:text-beautiful-pink transition-colors">
+    Solutions
+  </a>
+  <a href="#components" className="text-gray-700 px-3 py-1 rounded-md text-sm font-medium hover:text-beautiful-pink transition-colors">
+    Components
+  </a>
+  <a href="#pricing" className="text-gray-700 px-3 py-1 rounded-md text-sm font-medium hover:text-beautiful-pink transition-colors">
+    Pricing
+  </a>
+  <Button className="bg-beautiful-pink hover:bg-beautiful-pink/90 text-white" asChild>
+    <a href="/book-demo">Book a Strategy Call</a>
+  </Button>
+</div>
           </div>
         </div>
       </nav>
