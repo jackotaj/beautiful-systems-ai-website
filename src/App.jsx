@@ -23,15 +23,15 @@ function App() {
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-4">
-              <Badge className="bg-green-500 hover:bg-green-600 text-white px-3 py-1">
-                <a href="#solutions" className="text-white">Solutions</a>
-              </Badge>
-              <Badge className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1">
-                <a href="#components" className="text-white">Components</a>
-              </Badge>
-              <Badge className="bg-orange-500 hover:bg-orange-600 text-white px-3 py-1">
-                <a href="#pricing" className="text-white">Pricing</a>
-              </Badge>
+              <a href="#solutions" className="bg-green-100 text-green-700 px-3 py-1 rounded-md text-sm font-medium hover:bg-green-200 transition-colors">
+                Solutions
+              </a>
+              <a href="#components" className="bg-blue-100 text-blue-700 px-3 py-1 rounded-md text-sm font-medium hover:bg-blue-200 transition-colors">
+                Components
+              </a>
+              <a href="#pricing" className="bg-orange-100 text-orange-700 px-3 py-1 rounded-md text-sm font-medium hover:bg-orange-200 transition-colors">
+                Pricing
+              </a>
               <Button className="bg-beautiful-pink hover:bg-beautiful-pink/90 text-white" asChild>
                 <a href="/book-demo">Book a Strategy Call</a>
               </Button>
